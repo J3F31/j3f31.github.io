@@ -1,0 +1,30 @@
+{
+    "name": "glsl_babylon",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/J3F31/glsl_babylon.git"
+    },
+    "type": "module",
+    "keywords": [],
+    "author": "Jero",
+    "license": "ISC",
+    "homepage": "https://github.com/J3F31/glsl_babylon#readme",
+    "description": "",
+    "devDependencies": {
+        "typescript": "^5.2.2",
+        "vite": "^5.2.0"
+    },
+    "dependencies": {
+        "@babylonjs/core": "^7.6.0",
+        "@babylonjs/gui": "^7.6.0",
+        "@babylonjs/inspector": "^7.6.0",
+        "@babylonjs/loaders": "^7.6.0"
+    }
+}
